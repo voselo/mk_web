@@ -1,0 +1,77 @@
+/*
+Theme Name: SKT Roofing Lite
+Theme URI: https://www.sktthemes.org/shop/free-roofing-company-wordpress-theme
+Author: SKT Themes
+Author URI: https://www.sktthemes.org
+Description: SKT Roofing WordPress theme is suitable for roof installation, roof construction, roof repair, roof maintenance, roof replacement, roof work, roof covering, roof shingling, roof tiling, roofing services and building and contractor, construction and builder, developer, constructor, subcontractor, engineer, project manager, tradesman, service provider, firm, concrete, mortar, adhesive, binder, grout, paste, cementitious material, cement mix, hydraulic cement, Portland cement, architect and interior designer, building design and decor, architectural design and interior styling, architectural planning and interior decoration, construction design and interior arrangement, structure design and interior aesthetics, building planning and interior space design, architectural drafting and interior furnishing, construction architect and interior decorator.
+Template: maintenance-services
+Version: 1.0
+Tested up to: 6.5
+Requires PHP: 7.4
+License: GNU General Public License
+License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
+Text Domain: skt-roofing-lite
+Tags: two-columns,right-sidebar,full-width-template,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments,featured-images,footer-widgets,translation-ready,rtl-language-support,custom-logo,editor-style,custom-header,blog,e-commerce,portfolio
+
+SKT Roofing Lite is based on Underscores theme(Underscores is distributed under the terms of the GNU GPL v2 or later).
+
+SKT Roofing Lite WordPress Theme has been created by SKT Themes(sktthemes.org), 2024.
+SKT Roofing Lite WordPress Theme is released under the terms of GNU GPL
+*/
+a:hover{color: #ea1826;}
+.logo{float:left; min-height:inherit; padding:30px 35px 18px 0;} 
+.logo h2{color:#000;}
+#navigation{width:auto; float:right; position:relative; background-color: rgb(234, 24, 38, 1);}
+body.blog #content_navigator, body.search-results #content_navigator, body.search-no-results #content_navigator, body.error404 #content_navigator{ margin:50px 0 0 0;}
+.topmenu-bar{width: 100%; z-index: 9; position: relative;}
+.topmenu-bar:after{content: ''; width: 25%; right: 0; background: #ea1826; background-color: rgb(234, 24, 38); position: absolute; height: 90px; top: 0;}
+
+.main-navigation{font-size: 17px; font-family:'Poppins'; padding:0 25px 0 0; text-transform:uppercase;}
+.main-navigation ul li a{line-height:90px; font-weight:600; padding:0 20px;}
+.main-navigation ul li:hover a, .main-navigation ul li a:focus, .main-navigation ul li a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_item a{background-color:transparent; color:#000;}
+.main-navigation ul li ul li a{color:#000;}
+.main-navigation ul ul li a:hover, .main-navigation ul ul li a:focus{background-color: #ea1826; color:#FFF;}
+#navigation:before{content: ''; width: 0; height: 0; border-bottom: 100px solid #ea1826; border-left: 60px solid transparent; position: absolute; left: -58px; bottom: 0; z-index: 9999;}
+#navigation:after{content: ''; width: 0; height: 0; border-bottom: 100px solid #102039; border-left: 60px solid transparent; position: absolute; left: -63px; bottom: 0; top: -25px;}
+.header{background-color: transparent;}
+.header-phone-number{width:300px; margin:0; padding:0; font-size:21px; font-weight:600;}
+.header-phone-number img{vertical-align: middle; float: left; background: #fff; border-radius: 100%; align-items: center; display: flex; justify-content: center; padding: 14px; margin: 15px 20px 0 35px;}
+.header-phone-number span{color:#FFF; font-size:17px; font-weight:400; padding:18px 0 4px 0; top:0px;}
+.header-phone-number a{color:#FFF;}
+.header-phone-number a:hover{color:#282828;}
+#sidebar ul li a:hover, #sidebar li a:hover{color:#ea1826 !important;}
+.postmeta a{color:#ea1826;}
+.postmeta a:hover{color:#000000;}
+.header-right-infos{border-left: solid 1px #ff6673; padding-bottom: 17px;}
+.footerarea{background-color:transparent; padding:0;}
+#main-set{background-color:#FFF;}
+.page_content{padding: 60px 0 30px 0;}
+#footer{background-color: #f8f4f1; background-image: url(images/footer-bg.jpg); padding:60px 0 0 0; background-repeat: no-repeat; background-size: 100%; background-position: top center; background-size: 100% 100% !important; position: relative;}
+
+.footer-logo{text-align: left; padding: 0 0 55px 0; float: left;}
+.footer-social{float: right; text-align: right; padding: 12px 0 55px 0;}
+.social-icons{display: inline-table;}
+.social-icons a{width: 60px; height: 60px; line-height: 60px; text-align: center; vertical-align: middle; display: inline-block; transition: 0.6s; -moz-transition: 0.6s; -webkit-transition: 0.6s; -o-transition: 0.6s; margin: 0 2px; padding: 0; border-radius:250px; -moz-border-radius:250px; -webkit-border-radius:250px; background-color:#ea1826 !important;}
+.social-icons a:hover{background-color:#282828 !important;}
+.social-icons br{display: none;}
+.social-icons .fb{background: url(images/icon-fb.png) no-repeat center center;}
+.social-icons .tw{background: url(images/icon-tw.png) no-repeat center center;}
+.social-icons .in{background: url(images/icon-in.png) no-repeat center center;}
+.social-icons .insta{background: url(images/icon-insta.png) no-repeat center center;}
+.footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6{color:#080808; font-family: 'Poppins'; font-size: 17px; font-weight: 600; letter-spacing: 1.5px;}
+.footer aside.widget{color:#1b1b1b; font-family:'Poppins';}
+.cols-3{width:25%; font-size:17px; font-weight:400; color:#1b1b1b;}
+.cols-3:nth-child(2){width: 22%; padding-left: 35px;}
+.cols-3:nth-child(1){width: 28%;}
+.ftr-widg{background-color:#fff; padding:80px 60px 60px 60px; border-radius:20px; margin-bottom:60px;}
+.footer-row .cols-3 ul li a{color: #1b1b1b;}
+.footer-row .cols-3 ul li a:hover, .footer-row .cols-3 ul li.current_page_item a{color: #ea1826 !important;}
+.copyright-wrapper{background-color:#f7a209;}
+.copyright-txt{ color:#fff;}
+.copyright-txt a{color: #ea1826;}
+.copyright-txt a:hover{color:#000;}
+.sticky{border-bottom-color:#ea1826;}
+input.search-submit, .post-password-form input[type="submit"], .wpcf7-form input[type="submit"], .woocommerce-product-search button[type="submit"]{ background-color:#ea1826;}
+.inner-banner-thumb{margin:0;}
+.inner-banner-thumb h1{font-family: 'Playfair Display'; font-size: 54px; color: #000000; font-weight:700;}
+.inner-banner-thumb .black-title h1{color:#FFF;}

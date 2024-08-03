@@ -1,0 +1,22 @@
+[{
+  "name": "Prime Slider",
+  "slug": "bdthemes-prime-slider-lite",
+  "required": false,
+  "force_activation": false
+}, {
+  "name": "Ultimate Post Kit",
+  "slug": "ultimate-post-kit",
+  "required": false,
+  "force_activation": false
+}, {
+  "name": "WooCommerce",
+  "slug": "woocommerce",
+  "required": false,
+  "force_activation": false
+}, {
+  "name": "Elementor",
+  "slug": "elementor",
+  "required": false,
+  "force_activation": false
+}
+]
